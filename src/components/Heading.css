@@ -1,0 +1,7 @@
+.pageHeading {
+  font-size: 34px;
+  margin: 1rem;
+  background: -webkit-linear-gradient(#D70060, #E54028);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
