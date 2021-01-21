@@ -6,20 +6,20 @@ export default function NavigationBar() {
     <div className="navigationBar">
       <ul>
         <li>
-          <Link to="/categories"><img src="./images/icons/pulse.png" alt=""/></Link>
+          <Link to="/albums"><img src="./images/icons/pulse.png" alt=""/></Link>
         </li>
         <li>
-          <Link to="/"><img src="./images/icons/microphone.png" alt=""/></Link>
+          <Link to="/playlists"><img src="./images/icons/microphone.png" alt=""/></Link>
         </li>
         {/* TODO make images stack */}
         <li className="navigationBar__middleItem">
-          <Link to="/"><img src="./images/icons/middleOuter.png" alt=""/></Link>
+          <Link to="/"><img src="./images/icons/middleInner.png" alt=""/></Link>
         </li> 
         <li>
-          <Link to="/playlists"><img src="./images/icons/theme.png" alt=""/></Link>
+          <Link to="/theme"><img src="./images/icons/theme.png" alt=""/></Link>
         </li>
         <li>
-          <Link to="/albums"><img src="./images/icons/settings.png" alt=""/></Link>
+          <Link to="/categories"><img src="./images/icons/settings.png" alt=""/></Link>
         </li>
       </ul>
     </div>

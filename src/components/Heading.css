@@ -1,5 +1,6 @@
 .pageHeading {
   font-size: 34px;
+  font-family: 'Poppins', sans-serif;
   margin: 1rem;
   background: -webkit-linear-gradient(#D70060, #E54028);
   -webkit-background-clip: text;

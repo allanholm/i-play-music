@@ -5,4 +5,15 @@
   justify-content: space-around;
   align-items: center;
   padding: 0;
+  margin: 0;
+}
+.navigationBar__middleItem {
+  background-color: #E54028;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

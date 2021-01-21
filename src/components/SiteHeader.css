@@ -7,6 +7,8 @@
 }
 .siteHeader__title {
   font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: light;
   font-weight: lighter;
   color: #341931;
   text-transform: uppercase;
