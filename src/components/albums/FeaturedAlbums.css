@@ -1,0 +1,5 @@
+.featuredAlbumsSlider {
+  display: flex;
+  overflow: scroll;
+  height: 140px;
+}

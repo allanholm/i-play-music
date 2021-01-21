@@ -1,0 +1,6 @@
+.underHeadingBar {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-between;
+}
