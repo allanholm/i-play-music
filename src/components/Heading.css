@@ -2,7 +2,9 @@
   font-size: 34px;
   font-family: 'Poppins', sans-serif;
   margin: 1rem;
-  background: -webkit-linear-gradient(#D70060, #E54028);
+  background-image: linear-gradient(to right, #EE0979, #FF6A00);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
 }

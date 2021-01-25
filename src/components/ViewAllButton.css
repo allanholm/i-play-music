@@ -7,3 +7,7 @@
   color: #FF1168;
   padding: 0;
 }
+a{
+  box-sizing: border-box;
+  height: 25px;
+}
