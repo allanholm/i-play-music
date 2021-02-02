@@ -14,18 +14,51 @@
         }
       ],
       "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9",
-        "song10",
-        "song11",
-        "song12"
+        {
+          "title": "song1",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song2",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song3",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song4",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song5",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song6",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song7",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song8",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        },
+        {
+          "title": "song9",
+          "artist": "Artist name 1",
+          "category": "Rock Ballads"
+        }
       ]
     },
     {

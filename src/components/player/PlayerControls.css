@@ -1,0 +1,33 @@
+.playerControls {
+  width: 80vw;
+  margin: 0 auto;
+}
+.playerControls__input {
+  width: 100%;
+  
+}
+.playerControls__inputTime {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins' , sans-serif;
+  font-size: 15px;
+  font-weight: light;
+  color: #341931;
+}
+.playerControls__buttons {
+  display: flex;
+  width: 65vw;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.playerControls__buttonsPlayWrap {
+  background-color: #E54028;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
