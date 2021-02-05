@@ -1,26 +1,15 @@
-import { useEffect, useState } from 'react';
 import UnderHeadingBar from '../UnderHeadingBar';
 import NewReleaseCard from './NewReleaseCard';
 import './NewReleases.css';
 
-export default function NewReleases(props) {
-  var [albums, setAlbums] = useState([]);
+export default function NewReleases({albums}) {
+  var albumArray = []
+  albumArray = albums;
 
-  useEffect(() => {
-    fetch("./database.json")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      setAlbums(data.albums)
-    })
-
-  }, []);
-  
   return(
     <div className="newReleases">
       <UnderHeadingBar title="New Releases" />
-      {albums.map(function (album) {
+      {albumArray.map(function (album) {
         return <NewReleaseCard key={ album.id } album={ album } />;
       })}
     </div>
