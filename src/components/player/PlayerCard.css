@@ -1,35 +1,35 @@
 .playerCard {
-  margin: 15% auto 0 ;
-  font-family: 'Poppins' , sans-serif;
+	margin: 15% auto 0;
+	font-family: "Poppins", sans-serif;
 }
 
 .playerCard__images {
-  height: 45vh;
-  width: 100vw;
-  position: relative;
+	height: 45vh;
+	width: 100vw;
+	position: relative;
 }
 
 .playerCard__imageBack {
-  position: absolute;
-  width: 100%;
-  overflow: hidden;
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
 }
 .playerCard__imageFront {
-  position: relative;
-  width: 75vw;
-  margin: 0 12.5vw;
+	position: relative;
+	width: 75vw;
+	margin: 0 12.5vw;
 }
 
 .playerCard__title {
-  position: relative;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .playerCard__artist {
-  position: relative;
-  text-align: center;
-  font-size: 15px;
-  font-weight: light;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	font-weight: light;
 }

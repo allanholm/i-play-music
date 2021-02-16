@@ -1,7 +1,7 @@
 .underHeadingBar {
-  display: flex;
-  width: 90vw;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	width: 90vw;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
 }

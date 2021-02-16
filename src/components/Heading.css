@@ -1,10 +1,10 @@
 .pageHeading {
-  font-size: 34px;
-  font-family: 'Poppins', sans-serif;
-  margin: 1rem;
-  background-image: linear-gradient(to right, #EE0979, #FF6A00);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  display: inline-block;
+	font-size: 34px;
+	font-family: "Poppins", sans-serif;
+	margin: 1rem;
+	background-image: linear-gradient(to right, #ee0979, #ff6a00);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	display: inline-block;
 }
