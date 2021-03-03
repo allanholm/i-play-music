@@ -7,7 +7,7 @@ export default function NavigationBar() {
 			<ul>
 				<li>
 					<Link to="/albums">
-						<img src="./images/icons/pulse.png" alt="" />
+						<img src="./images/icons/pulse.png" alt="navIcon" />
 					</Link>
 				</li>
 				<li>
