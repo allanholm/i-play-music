@@ -1,248 +1,222 @@
 {
-  "albums" : [
-    {
-      "id": "1",
-      "featured": false,
-      "title" : "Album name 1",
-      "artist" : "Artist name 1",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        {
-          "title": "song1",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song2",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song3",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song4",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song5",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song6",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song7",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song8",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        },
-        {
-          "title": "song9",
-          "artist": "Artist name 1",
-          "category": "Rock Ballads"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "featured": true,
-      "title" : "Album name 2",
-      "artist" : "Artist name 2",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9"
-      ]
-    },
-    {
-      "id": "3",
-      "featured": true,
-      "title" : "Album name 3",
-      "artist" : "Artist name 3",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4"
-      ]
-    },
-    {
-      "id": "4",
-      "featured": false,
-      "title" : "Album name 4",
-      "artist" : "Artist name 4",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9",
-        "song10"
-      ]
-    },
-    {
-      "id": "5",
-      "featured": false,
-      "title" : "Album name 5",
-      "artist" : "Artist name 5",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9",
-        "song10",
-        "song11",
-        "song12"
-      ]
-    },
-    {
-      "id": "6",
-      "featured": true,
-      "title" : "Album name 6",
-      "artist" : "Artist name 6",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9",
-        "song10",
-        "song11",
-        "song12"
-      ]
-    },
-    {
-      "id": "7",
-      "featured": false,
-      "title" : "Album name 7",
-      "artist" : "Artist name 7",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9",
-        "song10",
-        "song11",
-        "song12"
-      ]
-    },
-    {
-      "id": "8",
-      "featured": true,
-      "title" : "Album name 8",
-      "artist" : "Artist name 8",
-      "images": [
-        {
-          "src": "https://via.placeholder.com/50"
-        },
-        {
-          "src": "https://via.placeholder.com/130"
-        }
-      ],
-      "songs": [
-        "song1",
-        "song2",
-        "song3",
-        "song4",
-        "song5",
-        "song6",
-        "song7",
-        "song8",
-        "song9",
-        "song10",
-        "song11",
-        "song12"
-      ]
-    }
-  ]
+	"albums": [
+		{
+			"id": "1",
+			"featured": false,
+			"title": "Album name 1",
+			"artist": "Artist name 1",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": [
+				{
+					"title": "song1",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song2",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song3",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song4",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song5",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song6",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song7",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song8",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				},
+				{
+					"title": "song9",
+					"artist": "Artist name 1",
+					"category": "Rock Ballads"
+				}
+			]
+		},
+		{
+			"id": "2",
+			"featured": true,
+			"title": "Album name 2",
+			"artist": "Artist name 2",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": ["song1", "song2", "song3", "song4", "song5", "song6", "song7", "song8", "song9"]
+		},
+		{
+			"id": "3",
+			"featured": true,
+			"title": "Album name 3",
+			"artist": "Artist name 3",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": ["song1", "song2", "song3", "song4"]
+		},
+		{
+			"id": "4",
+			"featured": false,
+			"title": "Album name 4",
+			"artist": "Artist name 4",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": ["song1", "song2", "song3", "song4", "song5", "song6", "song7", "song8", "song9", "song10"]
+		},
+		{
+			"id": "5",
+			"featured": false,
+			"title": "Album name 5",
+			"artist": "Artist name 5",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": [
+				"song1",
+				"song2",
+				"song3",
+				"song4",
+				"song5",
+				"song6",
+				"song7",
+				"song8",
+				"song9",
+				"song10",
+				"song11",
+				"song12"
+			]
+		},
+		{
+			"id": "6",
+			"featured": true,
+			"title": "Album name 6",
+			"artist": "Artist name 6",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": [
+				"song1",
+				"song2",
+				"song3",
+				"song4",
+				"song5",
+				"song6",
+				"song7",
+				"song8",
+				"song9",
+				"song10",
+				"song11",
+				"song12"
+			]
+		},
+		{
+			"id": "7",
+			"featured": false,
+			"title": "Album name 7",
+			"artist": "Artist name 7",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": [
+				"song1",
+				"song2",
+				"song3",
+				"song4",
+				"song5",
+				"song6",
+				"song7",
+				"song8",
+				"song9",
+				"song10",
+				"song11",
+				"song12"
+			]
+		},
+		{
+			"id": "8",
+			"featured": true,
+			"title": "Album name 8",
+			"artist": "Artist name 8",
+			"images": [
+				{
+					"src": "https://via.placeholder.com/50"
+				},
+				{
+					"src": "https://via.placeholder.com/130"
+				}
+			],
+			"songs": [
+				"song1",
+				"song2",
+				"song3",
+				"song4",
+				"song5",
+				"song6",
+				"song7",
+				"song8",
+				"song9",
+				"song10",
+				"song11",
+				"song12"
+			]
+		}
+	]
 }

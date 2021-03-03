@@ -1,8 +1,7 @@
 .navigationBar {
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  box-shadow: 0 0 5px 5px hsla(0, 0%, 0%, 0.5);
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	box-shadow: 0 0 5px 5px hsla(0, 0%, 0%, 0.5);
 }
-

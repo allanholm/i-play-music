@@ -1,28 +1,28 @@
 .category__header {
-  height: 54px;
-  width: 80vw;
-  margin: 10px auto;
-  border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
+	height: 54px;
+	width: 80vw;
+	margin: 10px auto;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
 }
 .category__title {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  padding-left: 15px;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 15px;
 }
 .category__meatballs {
-  color: white;
-  font-size: 32px;
-  margin: 0;
-  padding-right: 15px;
-  cursor: pointer;
+	color: white;
+	font-size: 32px;
+	margin: 0;
+	padding-right: 15px;
+	cursor: pointer;
 }
 .category__list {
-  list-style-type: none;
+	list-style-type: none;
 }
 .category__list--hidden {
-  display: none;
+	display: none;
 }
