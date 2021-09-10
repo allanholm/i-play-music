@@ -1,0 +1,77 @@
+.loginPage {
+  margin: 0 5%;
+  color: #341931;
+  box-sizing: border-box;
+  
+  &__heading {
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20%;
+  }
+
+  &__form{
+    margin-bottom: 50px;
+    line-height: 3em;
+
+    &__label {
+      display: block;
+      font-weight: bold;
+      padding-top: 5%;
+    }
+    &__borderDiv {
+      border-bottom: #341931 3px solid;
+      align-items: center;
+      justify-items: center;
+      display: flex;
+    }
+    &__field {
+      border: none;
+      font-weight: light;
+    }
+    &__icon {
+      position: absolute;
+      right: 7%;
+      transform: scale(1.5);
+    }
+  }
+
+  &__button {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 25%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: #341931 3px solid;
+    color: #341931;
+    text-transform: uppercase;
+  }
+
+  &__fingerprintCon {
+    background-color: #FF1168;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 0;
+
+  }
+
+  &__fingerprint {
+    transform: scale(2);
+    color: #FFF;
+  }
+
+  &__fingerprintText {
+    font-weight: 200;
+    text-transform: capitalize;
+    text-align: center;
+  }
+}
+// .navigationBar {
+//   display: none;
+// }

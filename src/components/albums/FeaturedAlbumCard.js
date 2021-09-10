@@ -1,5 +1,5 @@
 import { Link } from "@reach/router";
-import "./FeaturedAlbumCard.css";
+import "./FeaturedAlbumCard.scss";
 
 export default function FeaturedAlbumCard({ album }) {
 	return (
@@ -7,7 +7,7 @@ export default function FeaturedAlbumCard({ album }) {
 			<img
 				className="featuredAlbumCard__image"
 				src={album.images[1].url}
-				alt={album.name + " by " + album.artists[0].name}
+				alt={"album art"}
 			/>
 		</Link>
 	);

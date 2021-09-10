@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { Router } from "@reach/router";
 import NavigationBar from "./components/NavigationBar";
 import Featured from "./pages/Featured";
@@ -17,7 +17,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<TokenContext.Provider value={tokenState}>
+			<TokenContext.Provider value={ tokenState }>
 				<Router>
 					<Login default />
 					<Callback path="/callback" />

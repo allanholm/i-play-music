@@ -1,7 +1,7 @@
 import ErrorBoundary from "../ErrorBoundary";
 import UnderHeadingBar from "../UnderHeadingBar";
 import FeaturedAlbumCard from "./FeaturedAlbumCard";
-import "./FeaturedAlbums.css";
+import "./FeaturedAlbums.scss";
 
 export default function FeaturedAlbums({ albums }) {
 	var allAlbums = [];
@@ -13,7 +13,9 @@ export default function FeaturedAlbums({ albums }) {
         <UnderHeadingBar title="Featured Albums" />
         <div className="featuredAlbumsSlider">
           {allAlbums.map(function (album) {
-            return <FeaturedAlbumCard key={album.id} album={album} />;
+            return <FeaturedAlbumCard 
+                    key={album.id} 
+                    album={album} />;
           })}
         </div>
       </div>

@@ -14,11 +14,13 @@
 		"querystring": "^0.2.0",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
+		"react-icons": "^4.2.0",
 		"react-scripts": "4.0.1",
+		"sass": "^1.38.0",
 		"web-vitals": "^0.2.4"
 	},
 	"scripts": {
-		"dev": "netlify dev -f .netlify/functions",
+		"dev": "netlify dev -f .netlify/functions --silent",
 		"start": "react-scripts start",
 		"build": "react-scripts build && cp _redirects build/_redirects",
 		"test": "cross-env CI=true react-scripts test",

@@ -1,0 +1,13 @@
+.siteHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 15px;
+	margin: 15px;
+}
+.siteHeader__title {
+	font-size: 15px;
+	font-weight: 300;
+	color: #341931;
+	text-transform: uppercase;
+}

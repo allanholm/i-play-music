@@ -1,4 +1,4 @@
-import "./SubCategory.css";
+import "./SubCategory.scss";
 
 export default function SubCategory(props) {
 	return (

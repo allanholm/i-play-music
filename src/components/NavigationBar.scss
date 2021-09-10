@@ -1,0 +1,30 @@
+.navigationBar {
+
+  ul {
+    background-color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    padding: 0;
+  }
+
+  &__middleLi {
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #ee0979, #ff6a00);
+    color: #FFF;
+  }
+
+  &__menuitem {
+    color: #ee0979;
+    transform: scale(2);
+    background-color: #FFF;
+
+    &--gradient {
+      color: #FFF;
+      transform: scale(2.5);
+    }
+  }
+}

@@ -1,10 +1,10 @@
-import "./NewReleaseCard.css";
+import "./NewReleaseCard.scss";
 
 export default function NewReleaseCard({ album }) {
 	return (
 		<div className="newReleaseCard">
 			<img className="newReleaseCard__image" src={album.images[2].url} alt="alt" />
-			<div>
+			<div className="newReleaseCard__overflowBox">
 				<p className="newReleaseCard__title">{album.name}</p>
 				<p className="newReleaseCard__artist">{album.artists[0].name}</p>
 			</div>

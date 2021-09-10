@@ -1,11 +1,12 @@
-import "./SiteHeader.css";
+import "./SiteHeader.scss";
+import { IoChevronBack, IoSearch } from "react-icons/io5";
 
 export default function SiteHeader(probs) {
 	return (
 		<div className="siteHeader">
-			<img src="./images/icons/backArrow.png" alt="" />
+			<IoChevronBack />
 			<h1 className="siteHeader__title">{probs.title}</h1>
-			<img src="./images/icons/search.png" alt="" />
+			<IoSearch />
 		</div>
 	);
 }

@@ -1,5 +1,9 @@
-import "./NavigationBar.css";
+import "./NavigationBar.scss";
 import { Link } from "@reach/router";
+import { MdWifiTethering, MdLibraryMusic } from "react-icons/md";
+import { IoPulse } from "react-icons/io5";
+import { IoIosMicrophone } from "react-icons/io";
+import { VscColorMode } from "react-icons/vsc";
 
 export default function NavigationBar() {
 	return (
@@ -7,28 +11,25 @@ export default function NavigationBar() {
 			<ul>
 				<li>
 					<Link to="/albums">
-						<img src="./images/icons/pulse.png" alt="navIcon" />
+						<IoPulse className="navigationBar__menuitem"/>
 					</Link>
 				</li>
-				<li>
+        <li>
 					<Link to="/playlists">
-						<img src="./images/icons/microphone.png" alt="" />
+						<IoIosMicrophone className="navigationBar__menuitem"/>
 					</Link>
 				</li>
-				{/* TODO make images stack */}
-				<li className="navigationBar__middleItem">
-					<Link to="/">
-						<img src="./images/icons/middleInner.png" alt="" />
+        <li className="navigationBar__middleLi">
+					<Link to="/featured">
+						<MdWifiTethering className="navigationBar__menuitem--gradient"/>
 					</Link>
 				</li>
-				<li>
-					<Link to="/theme">
-						<img src="./images/icons/theme.png" alt="" />
-					</Link>
+        <li>
+						<VscColorMode className="navigationBar__menuitem"/>
 				</li>
-				<li>
+        <li>
 					<Link to="/categories">
-						<img src="./images/icons/settings.png" alt="" />
+						<MdLibraryMusic className="navigationBar__menuitem"/>
 					</Link>
 				</li>
 			</ul>
